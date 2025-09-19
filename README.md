@@ -23,8 +23,7 @@ fastapi-login-sample/
 │── requirements.txt # Project dependencies
 │── README.md # Project documentation
 
-yaml
-Copy code
+
 
 ---
 
@@ -82,3 +81,4 @@ yaml
 Copy code
 
 ---
+
