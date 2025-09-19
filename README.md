@@ -15,13 +15,13 @@ It demonstrates how to implement user login, authentication, and token handling 
 
 ## 📂 Project Structure
 fastapi-login-sample/
-  │── app/
-  │ ├── main.py # Entry point of the app
-  │ ├── auth.py # Authentication & JWT logic
-  │ ├── models.py # User models & schemas
-  │ ├── database.py # (Optional) Database connection
-  │── requirements.txt # Project dependencies
-  │── README.md # Project documentation
+│── app/
+│ ├── main.py # Entry point of the app
+│ ├── auth.py # Authentication & JWT logic
+│ ├── models.py # User models & schemas
+│ ├── database.py # (Optional) Database connection
+│── requirements.txt # Project dependencies
+│── README.md # Project documentation
 
 
 
@@ -74,5 +74,6 @@ This project is licensed under the MIT License.
 
 
 ---
+
 
 
