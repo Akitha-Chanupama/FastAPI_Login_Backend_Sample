@@ -14,14 +14,14 @@ It demonstrates how to implement user login, authentication, and token handling 
 ---
 
 ## 📂 Project Structure
-fastapi-login-sample/
-│── app/
-│ ├── main.py # Entry point of the app
-│ ├── auth.py # Authentication & JWT logic
-│ ├── models.py # User models & schemas
-│ ├── database.py # (Optional) Database connection
-│── requirements.txt # Project dependencies
-│── README.md # Project documentation
+fastapi-login-sample/<br>
+│── app/<br>
+│ ├── main.py # Entry point of the app<br>
+│ ├── auth.py # Authentication & JWT logic<br>
+│ ├── models.py # User models & schemas<br>
+│ ├── database.py # (Optional) Database connection<br>
+│── requirements.txt # Project dependencies<br>
+│── README.md # Project documentation<br>
 
 
 
@@ -74,6 +74,7 @@ This project is licensed under the MIT License.
 
 
 ---
+
 
 
 
