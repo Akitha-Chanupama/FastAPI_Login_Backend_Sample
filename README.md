@@ -15,13 +15,13 @@ It demonstrates how to implement user login, authentication, and token handling 
 
 ## 📂 Project Structure
 fastapi-login-sample/
-│── app/
-│ ├── main.py # Entry point of the app
-│ ├── auth.py # Authentication & JWT logic
-│ ├── models.py # User models & schemas
-│ ├── database.py # (Optional) Database connection
-│── requirements.txt # Project dependencies
-│── README.md # Project documentation
+  │── app/
+  │ ├── main.py # Entry point of the app
+  │ ├── auth.py # Authentication & JWT logic
+  │ ├── models.py # User models & schemas
+  │ ├── database.py # (Optional) Database connection
+  │── requirements.txt # Project dependencies
+  │── README.md # Project documentation
 
 
 
@@ -30,55 +30,49 @@ fastapi-login-sample/
 ## ⚡ Getting Started
 
 ### 1️⃣ Clone the repo
-```bash
-git clone https://github.com/your-username/fastapi-login-sample.git
-cd fastapi-login-sample
-2️⃣ Create a virtual environment
-bash
-Copy code
-python -m venv venv
-source venv/bin/activate   # On Linux / Mac
-venv\Scripts\activate      # On Windows
-3️⃣ Install dependencies
-bash
-Copy code
-pip install -r requirements.txt
-4️⃣ Run the server
-bash
-Copy code
-uvicorn app.main:app --reload
-Server will start at 👉 http://127.0.0.1:8000
+  - git clone https://github.com/your-username/fastapi-login-sample.git
+  - cd fastapi-login-sample
+### 2️⃣ Create a virtual environment
+  - python -m venv venv
+  - source venv/bin/activate   # On Linux / Mac
+  - venv\Scripts\activate      # On Windows
+    
+### 3️⃣ Install dependencies
 
-🔑 API Endpoints
-Method	Endpoint	Description	Auth Required
-POST	/login	User login with creds	❌
-GET	/profile	Get user profile	✅ JWT Token
-POST	/register	Register a new user	❌
+  - pip install -r requirements.txt
 
-📖 Example Login Flow
-User sends credentials to /login
+### 4️⃣ Run the server
 
-Backend verifies and returns a JWT token
+  - uvicorn app.main:app --reload
+- Server will start at 👉 http://127.0.0.1:8000
 
-Client uses this token for protected endpoints (e.g., /profile)
+### 🔑 API Endpoints
+  - Method	Endpoint	Description	Auth Required
+  - POST	/login	User login with creds	❌
+  - GET	/profile	Get user profile	✅ JWT Token
+  - POST	/register	Register a new user	❌
 
-🛠️ Future Improvements
-Add refresh tokens
+### 📖 Example Login Flow
+- User sends credentials to /login
 
-Hash passwords using passlib
+- Backend verifies and returns a JWT token
 
-Connect to a real database (PostgreSQL, MySQL, SQLite, etc.)
+- Client uses this token for protected endpoints (e.g., /profile)
 
-Add role-based authorization
+### 🛠️ Future Improvements
+1. Add refresh tokens
 
-🤝 Contributing
+2. Hash passwords using passlib
+
+3. Add role-based authorization
+
+### 🤝 Contributing
 Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
-📜 License
+### 📜 License
 This project is licensed under the MIT License.
 
-yaml
-Copy code
 
 ---
+
 
